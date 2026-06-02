@@ -598,6 +598,9 @@
   border-radius: 6px;
   background: rgba(243, 245, 246, 1);
 }
+.spec_product_frame .small_product_box:nth-child(odd) {
+  margin-right: 30px;
+}
 .spec_product_frame .small_product_box .small_product_content {
   display: flex;
   flex-direction: column;
