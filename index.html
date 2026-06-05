@@ -10,6 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./public/css/command.css" />
     <link rel="stylesheet" href="./public/css/home.css" />
   </head>
@@ -120,7 +131,7 @@
                 <div class="hover_border"></div>
               </div>
               <div class="box_right">
-                <img src="./public/images/icons/smart_watch.svg" alt="" />
+                <img src="./public/images/products/image 11.png" alt="" />
               </div>
             </div>
           </div>
@@ -210,12 +221,13 @@
             <span>Top selling product</span>
             <a href="">View All</a>
           </div>
-          <div class="product_wrapper">
+          <div class="product_wrapper swiper mySwiper">
             <div class="next_prev_box">
               <img src="./public/images/icons/next.svg" alt="" />
             </div>
-            <div class="product_boxes">
-              <div class="product_box">
+
+            <div class="product_boxes swiper-wrapper">
+              <div class="product_box swiper-slide">
                 <a href="">
                   <div
                     class="product_img_box"
@@ -250,7 +262,112 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
+              <div class="product_box swiper-slide">
+                <a href="">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url(./public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">EASTSPORT</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box swiper-slide">
+                <a href="">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url(./public/images/products/phone.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">SONY</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple iPhone 11 64GB Smartphone - Black.
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box swiper-slide">
+                <a href="">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url(./public/images/products/iRobot.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">SONY</span>
+                  <a href="">
+                    <p class="product_desc">
+                      iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box swiper-slide">
                 <a href="">
                   <div
                     class="product_img_box"
@@ -285,12 +402,12 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
+              <div class="product_box swiper-slide">
                 <a href="">
                   <div
                     class="product_img_box"
                     style="
-                      background: url(./public/images/products/watch.png);
+                      background: url(./public/images/products/dyson.png);
                       background-size: cover;
                     "
                   >
@@ -300,10 +417,10 @@
                   </div>
                 </a>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">EASTSPORT</span>
                   <a href="">
                     <p class="product_desc">
-                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                      Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
                     </p>
                   </a>
                   <div class="review_box">
@@ -320,12 +437,12 @@
                   </div>
                 </div>
               </div>
-              <div class="product_box">
+              <div class="product_box swiper-slide">
                 <a href="">
                   <div
                     class="product_img_box"
                     style="
-                      background: url(./public/images/products/watch.png);
+                      background: url(./public/images/products/phone.png);
                       background-size: cover;
                     "
                   >
@@ -335,10 +452,45 @@
                   </div>
                 </a>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">SONY</span>
                   <a href="">
                     <p class="product_desc">
-                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                      Apple iPhone 11 64GB Smartphone - Black.
+                    </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <img src="./public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box swiper-slide">
+                <a href="">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url(./public/images/products/iRobot.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">SONY</span>
+                  <a href="">
+                    <p class="product_desc">
+                      iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
                     </p>
                   </a>
                   <div class="review_box">
@@ -437,24 +589,30 @@
               </div>
               <div class="small_product_box">
                 <div class="small_product_content">
-                  <strong>Over-Ear</strong>
+                  <strong>On-Ear</strong>
                   <span>29 items</span>
                 </div>
                 <img src="./public/images/products/sony_headphone.png" alt="" />
               </div>
               <div class="small_product_box">
                 <div class="small_product_content">
-                  <strong>Over-Ear</strong>
+                  <strong>Sports & Fitness</strong>
                   <span>29 items</span>
                 </div>
-                <img src="./public/images/products/sony_headphone.png" alt="" />
+                <img
+                  src="./public/images/products/fitness_headphone.png"
+                  alt=""
+                />
               </div>
               <div class="small_product_box">
                 <div class="small_product_content">
-                  <strong>Over-Ear</strong>
+                  <strong>Bluetooth Headphones</strong>
                   <span>29 items</span>
                 </div>
-                <img src="./public/images/products/sony_headphone.png" alt="" />
+                <img
+                  src="./public/images/products/bluetooth_headphones.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -479,14 +637,14 @@
               <div class="tv_product_box">
                 <div class="product_img">
                   <a href="">
-                    <img src="./public/images/products/samsung_tv.png" alt="" />
+                    <img src="./public/images/products/SONY-TV.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">SONY</span>
                   <a href="">
                     <p class="product_desc">
-                      Samsung 58" 4K UHD HDR LED Tizen Smart TV
+                      Sony X85J 65" 4K UHD HDR LED Smart Google TV (KD65X85J)
                     </p>
                   </a>
                   <div class="review_box">
@@ -533,14 +691,14 @@
               <div class="tv_product_box">
                 <div class="product_img">
                   <a href="">
-                    <img src="./public/images/products/samsung_tv.png" alt="" />
+                    <img src="./public/images/products/tcl.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">TCL</span>
                   <a href="">
                     <p class="product_desc">
-                      Samsung 58" 4K UHD HDR LED Tizen Smart TV
+                      TCL 3-Series 40" 1080p HD LED Android Smart TV (40S334-CA)
                     </p>
                   </a>
                   <div class="review_box">
@@ -560,14 +718,14 @@
               <div class="tv_product_box">
                 <div class="product_img">
                   <a href="">
-                    <img src="./public/images/products/samsung_tv.png" alt="" />
+                    <img src="./public/images/products/LG-UHD.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">LG</span>
                   <a href="">
                     <p class="product_desc">
-                      Samsung 58" 4K UHD HDR LED Tizen Smart TV
+                      LG 65" 4K UHD HDR LED webOS Smart TV
                     </p>
                   </a>
                   <div class="review_box">
@@ -587,14 +745,14 @@
               <div class="tv_product_box">
                 <div class="product_img">
                   <a href="">
-                    <img src="./public/images/products/samsung_tv.png" alt="" />
+                    <img src="./public/images/products/LG-OLED.png" alt="" />
                   </a>
                 </div>
                 <div class="product_content_box">
-                  <span class="product_title">Samsung</span>
+                  <span class="product_title">LG</span>
                   <a href="">
                     <p class="product_desc">
-                      Samsung 58" 4K UHD HDR LED Tizen Smart TV
+                      LG 55" 4K UHD HDR OLED webOS Smart TV
                     </p>
                   </a>
                   <div class="review_box">
@@ -827,6 +985,144 @@
           </div>
         </div>
       </div>
+      <div class="footer_frame">
+        <div class="container">
+          <div class="footer_top">
+            <div class="footer_contact_box">
+              <span class="footer_spec_title">Contact Us</span>
+              <div class="footer_contact_main">
+                <img src="./public/images/icons/phone-call.svg" alt="" />
+                <div>
+                  <strong>Monday-Friday: 08am-9pm</strong>
+                  <span>+(1) 123 456 7890</span>
+                </div>
+              </div>
+              <div class="footer_contact_main">
+                <img src="./public/images/icons/email.svg" alt="" />
+                <div>
+                  <strong>Need help with your order?</strong>
+                  <a href="">
+                    <span>support@zenmart.com</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer_support_box">
+              <span class="footer_spec_title" style="margin-bottom: 10px"
+                >Customer Support</span
+              >
+              <a href="">Contact Us</a>
+              <a href="">Help Centre</a>
+              <a href="">Return & Exchanges</a>
+              <a href="">Best Buy Financing</a>
+              <a href="">Best Buy Gift Card</a>
+            </div>
+            <div class="footer_support_box">
+              <span class="footer_spec_title" style="margin-bottom: 10px"
+                >Services</span
+              >
+              <a href="">Geek Squad</a>
+              <a href="">In-Home Advisor</a>
+              <a href="">Trade-In Program</a>
+              <a href="">Electronics Recycling</a>
+              <a href="">Best Buy Health</a>
+            </div>
+            <div class="footer_media_box">
+              <div class="footer_media_main">
+                <span class="footer_spec_title" style="margin-bottom: 20px"
+                  >Follow Us</span
+                >
+                <div class="media_box">
+                  <a href="">
+                    <i
+                      class="fa-brands fa-facebook"
+                      style="color: rgb(116, 192, 252)"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter"
+                      style="color: rgb(116, 192, 252)"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram"
+                      style="color: rgb(116, 192, 252)"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin-in"
+                      style="color: rgb(116, 192, 252)"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+              <div class="footer_media_main" style="margin-top: 30px">
+                <span class="footer_spec_title">Mobile Apps</span>
+                <div class="mobile_box">
+                  <img src=".//public/images/icons/apple_icon.png" alt="" />
+                  <span>iOS App</span>
+                </div>
+                <div class="mobile_box">
+                  <img src=".//public/images/icons/android_icon.png" alt="" />
+                  <span>Android App</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer_media_box">
+              <div class="footer_media_main" style="margin-top: 130px">
+                <span class="footer_spec_title" style="margin-bottom: 20px"
+                  >We accept</span
+                >
+                <div class="card_box">
+                  <a href="">
+                    <img src="./public/images/icons/visa.png" alt="" />
+                    <img src="./public/images/icons/master_card.png" alt="" />
+                    <img src="./public/images/icons/apple_pay.png" alt="" />
+                    <img src="./public/images/icons/dicvover.png" alt="" />
+                    <img src="./public/images/icons/paypal.png" alt="" />
+                    <img src="./public/images/icons/amex.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div class="footer_main">
+              <div class="footer_bot_left">
+                <span>© 2022 Zenmart. All Rights Reserved</span>
+                <span>Privacy · Terms · Sitemap</span>
+              </div>
+              <div class="footer_bot_right">
+                <div class="footer_select_box">
+                  <span>Currency</span>
+                  <select name="" id="">
+                    <option value="" selected>USD</option>
+                    <option value="" selected>UZS</option>
+                    <option value="" selected>KRW</option>
+                    <option value="" selected>EUR</option>
+                    <option value="" selected>RUB</option>
+                  </select>
+                </div>
+                <div class="footer_select_box">
+                  <span>Language</span>
+                  <select name="" id="">
+                    <option value="" selected>RUS</option>
+                    <option value="" selected>UZB</option>
+                    <option value="" selected>ENG</option>
+                    <option value="" selected>KOREAN</option>
+                    <option value="" selected>TURKISH</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        });
+      </script>
     </div>
   </body>
 </html>
